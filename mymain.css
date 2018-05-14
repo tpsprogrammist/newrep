@@ -1,0 +1,107 @@
+*{
+	font-family: Verdana;
+}
+
+body{
+
+}
+
+
+.wrapper{
+	margin-left: 140px;
+}
+
+/*не работает*/
+/*.container{
+	margin: 0 auto;
+}
+*/
+
+.header__topmenu{
+
+}
+
+/*Обертка над списком меню About*/
+.aboutmenu{
+	display: inline;
+}
+
+/*собственно список меню */
+.aboutmenu__list{
+	display: inline;
+}
+
+
+ul li{
+	display: inline;
+}
+
+
+/*li - пункт меню*/
+.about__item{
+
+}
+
+/*Ссылка a внутри li*/
+.about__link{
+	font-size: 10px;
+	line-height: 24px;
+	color: rgb(113,113,113);
+	/*font-family: "Verdana";*/
+}
+
+.login{	
+	display: inline-block;
+	width: 50%;
+	text-align: right;
+}
+
+.login__link{
+	font-size: 10px;
+
+}
+
+.header__promo{
+
+}
+
+
+.logo{
+
+}
+
+.logo__link-img{
+
+}
+
+.advert{
+
+}
+
+.advert_img{
+
+}
+
+.header__nav{
+
+}
+
+.nav{
+
+}
+
+.nav__list{
+
+}
+
+.nav__item{
+
+}
+
+.nav__link{
+	font-size: 14px;
+	line-height: 24px;
+	color: rgb(113,113,113);
+	font-family: "Open Sans";
+	text-decoration: none;
+}
