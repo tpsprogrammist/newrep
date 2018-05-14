@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Awesomag</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/mymain.css"> 	
+<!-- 		<link rel="stylesheet" type="text/css" href="css/main1.css">	
+ -->
+</head>
+<body>
+
+	<header class="header">
+
+		<!-- ====Верхнее левое меню ==== About | Marketing | Contact ======== -->
+		<div class="header__topmenu clearfix">
+			<div class="aboutmenu">
+				<ul class="aboutmenu__list">
+					<li class="about__item">
+						<a class="about__link" href="">ABOUT</a>
+					</li>
+					<li class="about__item">
+						<a class="about__link" href="">MARKETING</a>
+					</li>
+					<li class="about__item">
+						<a class="about__link" href="">CONTACT</a>
+					</li>
+
+				</ul>
+			</div>
+				<!-- ====Верхнее правое меню ==== LOGIN | SIGN IN  ======== -->
+
+			<div class="login">
+				<a class="login__link" href="">LOG IN</a>
+				<a class="login__link" href="">SIGN IN</a>
+			</div>
+		</div>
+
+
+		<!--  Блок логотипа AWESOMAG и блока рекламы advertisement -->
+		<div class="header__promo">
+			<div class="logo">
+				<a class="logo__link">
+					<img class="logo__link-img" src="images/logo.png" alt="logo">
+				</a>
+			</div>
+
+			<!--  Длинный прямоугольный блок ADVERTISEMENT -->
+			<div class="advert">
+				<img src="images/advert.png" alt="ADVERTISEMENT">
+			</div>
+		</div>
+
+	<!--  Блок с основным меню music | MOVIES | TV SERIES | etc -->	
+		<div class="header__nav">
+			<nav class="nav">
+				<ul class="nav__list">
+					<li class="nav__item">
+						<a class="nav__link" href="">MUSIC</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="">MOVIES</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="">TV SERIES</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="">EDUCATION</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="">LIFESTYLE</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="">FASHION</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="">HEALTH</a>
+					</li>
+					<li class="nav__item">
+						<a class="nav__link" href="">PHOTOGRAPHY</a>
+					</li>
+
+				</ul>
+			</nav>
+			<div class="header__nav-search">
+				<form class="search__form">
+					<p>
+						<input type="search" name="search" placeholder="SEARCH AWESOMAG">
+						<input type="submit" name="submit">
+						<img src="images/lupa.png" class="search__icon" alt="magnifier">
+					</p>
+				</form>
+			</div>
+		</div>
+
+	</header>
+
+	<!--  =========  БОЛЬШОЙ БЛОК (.maincontent) ОСНОВНЫХ БЛОКОВ КОНТЕНТА: 1. СЛАЙДЕРА (SLIDER).  2. НОВОСТЕЙ. (ARTICLE) 3. ПОСТОВ (POSTS) -->
+	<div class="maincontent">
+
+		<!--  ====== БОЛЬШОЙ БЛОК СЛАЙДЕРА ===== -->
+		<div class="slider">
+			
+			<a class="previous_slider">
+				<img src="images/prevslider.png" alt="back-arrow">
+			</a>
+			<a class="next_slider">
+				<img src="images/nextslider.png" alt="next-arrow">
+			</a>
+			<!--  СПИСОК ДЛЯ СЛАЙДЕРА, но как картинка -->
+			<ul class="slider__list">
+				<li class="slider__item">
+						<img alt="LIFESTYLE" src="images/slider.png">
+						<div class="slider__textblock">
+							<div class="slider__textblock-category">LIFESTYLE</div>
+							<div class="slider__textblock-title">LOREM IPSUM DOLOR SIT AMET</div>
+							<div class="slider__textblock-text">Ut sed posuere trupis. Maecenas ultrices</div>
+						</div>
+				</li>
+
+				<li class="slider__item">
+						<img alt="MOVIES" src="images/slider-movies.png">
+						<div class="slider__textblock">
+							<div class="slider__textblock-category">MOVIES</div>
+							<div class="slider__textblock-title">Movies like titanic</div>
+							<div class="slider__textblock-text">Ut sed posuere trupis. Maecenas ultrices</div>
+						</div>
+				</li>
+
+				<li class="slider__item">
+						<img alt="PHOTOGRAPHY" src="images/slider-photo.png">
+						<div class="slider__textblock">
+							<div class="slider__textblock-category">Photography</div>
+							<div class="slider__textblock-title">Photo like Canon</div>
+							<div class="slider__textblock-text">Some text</div>
+						</div>
+				</li>
+
+
+			</ul>
+			
+		</div>
+
+		<!--  ====== БОЛЬШОЙ БЛОК НОВОСТЕЙ ===== -->
+
+		<div class="news">
+			<ul class="news__list">
+				<li class="news__item">
+					<div class="news__block">
+						<img src="images/movies.png" alt="movies">
+						<div class="news__category">MOVIES</div>
+						<div class="news__title">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia</div>
+						<div class="news__date">
+							<div class="news__icon">
+								<img src="images/calendar.png" alt="calendar">
+							</div>
+							<div class="news__date-text">03/21/2013</div>
+						</div>
+						<div class="news__comments">
+							<div class="news__icon">
+								<img src="images/comments.png" alt="comments">
+							</div>
+							<div class="news__comment-text">1,972</div>
+						</div>
+						<div class="news__info">
+							Ut sed posuere trupis. Maecenas ultrices lorem nec sapien tempor interdum. Quisque tristique rhoncus neque, nec scelerisque ante porta ut. Lorem ipsum dolor sit amet, consectetur etc....bla bla.
+						</div>
+						<button class="news__button">Read more</button>
+					</div>
+				</li>
+	<!--  2nd block -->
+
+				<li class="news__item">
+					<div class="news__block">
+						<img src="images/lifestyle.png" alt="lifestyle">
+						<div class="news__category">LIFESTYLE</div>
+						<div class="news__title">Integer viverra man with the scarf with glasses in front of the wind etc..</div>
+						<div class="news__date">
+							<div class="news__icon">
+								<img src="images/calendar.png" alt="calendar">
+							</div>
+							<div class="news__date-text">03/21/2013</div>
+						</div>
+						<div class="news__comments">
+							<div class="news__icon">
+								<img src="images/comments.png" alt="comments">
+							</div>
+							<div class="news__date-text">287</div>
+						</div>
+						<div class="news__info">
+							Sed pharetra Код, написанный верстальщиком, должен обеспечивать отличное функционирование сайта на любых устройствах: от смартфона до 4К-телевизора. Выпускники LoftSchool умеют заставить вёрстку работать так, как этого требует современный мир, в котором всё больше пользователей сидят в интернете не через десктопные 
+						</div>
+						<button class="news__button">Read more</button>
+					</div>
+				</li>
+				<!--  3rd block -->
+				<li class="news__item">
+					<div class="news__block">
+						<img src="images/photography.png" alt="photography">
+						<div class="news__category">Photography</div>
+						<div class="news__title">Praesent purus nulla, ullacorper sedrz some sakura branches in front of the blue sky etc...</div>
+						<div class="news__date">
+							<div class="news__icon">
+								<img src="images/calendar.png" alt="calendar">
+							</div>
+							<div class="news__date-text">03/21/2013</div>
+						</div>
+						<div class="news__comments">
+							<div class="news__icon">
+								<img src="images/comments.png" alt="comments">
+							</div>
+							<div class="news__date-text">5</div>
+						</div>
+						<div class="news__info">
+							Curabitur placerat lorem non nunc gravida nec
+						</div>
+						<button class="news__button">Read more</button>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+
+		<!--  ====== БОЛЬШОЙ БЛОК ПОСТОВ ===== -->
+		<div class="posts">
+			<div class="post-heading">
+				<div class="title__posts">
+					AWESOMAG FEATURED
+				</div>
+			</div>
+
+			<ul class="posts__list">
+
+				<li class="posts__item">
+					
+						<div class="posts__icon">
+							<img src="images/posts/1.png" alt="post">
+						</div>
+						<article class="posts__article">
+							<div class="posts__title">Class aptent taciti sociosqu ad litora torquent conubia</div>
+							<div class="posts__article">Vestibulum eu blandit libero. Onec fermentum, erat sed vestiulum...</div>
+							<div class="posts__date">Posted 11/30/2012</div>
+						</article>
+
+				</li>
+
+				<li class="posts__item">
+					
+						<div class="posts__icon">
+							<img src="images/posts/2.png" alt="post">
+						</div>
+						<article class="posts__article">
+							<div class="posts__title">Class aptent taciti sociosqu ad litora torquent conubia</div>
+							<div class="posts__article">Vestibulum eu blandit libero. Onec fermentum, erat sed vestiulum...</div>
+							<div class="posts__date">Posted 11/30/2012</div>
+						</article>
+
+				</li>
+
+				<li class="posts__item">
+					
+						<div class="posts__icon">
+							<img src="images/posts/3.png" alt="post">
+						</div>
+						<article class="posts__article">
+							<div class="posts__title">Class aptent taciti sociosqu ad litora torquent conubia</div>
+							<div class="posts__article">Vestibulum eu blandit libero. Onec fermentum, erat sed vestiulum...</div>
+							<div class="posts__date">Posted 11/30/2012</div>
+						</article>
+
+				</li>
+
+				<li class="posts__item">
+					
+						<div class="posts__icon">
+							<img src="images/posts/4.png" alt="post">
+						</div>
+						<article class="posts__article">
+							<div class="posts__title">Class aptent taciti sociosqu ad litora torquent conubia</div>
+							<div class="posts__article">Vestibulum eu blandit libero. Onec fermentum, erat sed vestiulum...</div>
+							<div class="posts__date">Posted 11/30/2012</div>
+						</article>
+
+				</li>
+
+				<li class="posts__item">
+					
+						<div class="posts__icon">
+							<img src="images/posts/5.png" alt="post">
+						</div>
+						<article class="posts__article">
+							<div class="posts__title">Class aptent taciti sociosqu ad litora torquent conubia</div>
+							<div class="posts__article">Vestibulum eu blandit libero. Onec fermentum, erat sed vestiulum...</div>
+							<div class="posts__date">Posted 11/30/2012</div>
+						</article>
+
+				</li>
+
+				<li class="posts__item">
+					
+						<div class="posts__icon">
+							<img src="images/posts/6.png" alt="post">
+						</div>
+						<article class="posts__article">
+							<div class="posts__title">Class aptent taciti sociosqu ad litora torquent conubia</div>
+							<div class="posts__article">Vestibulum eu blandit libero. Onec fermentum, erat sed vestiulum...</div>
+							<div class="posts__date">Posted 11/30/2012</div>
+						</article>
+
+				</li>
+
+
+				<li class="posts__item">
+					
+						<div class="posts__icon">
+							<img src="images/posts/7.png" alt="post">
+						</div>
+						<article class="posts__article">
+							<div class="posts__title">Class aptent taciti sociosqu ad litora torquent conubia</div>
+							<div class="posts__article">Vestibulum eu blandit libero. Onec fermentum, erat sed vestiulum...</div>
+							<div class="posts__date">Posted 11/30/2012</div>
+						</article>
+
+				</li>
+
+				<li class="posts__item">
+					
+						<div class="posts__icon">
+							<img src="images/posts/8.png" alt="post">
+						</div>
+						<article class="posts__article">
+							<div class="posts__title">Class aptent taciti sociosqu ad litora torquent conubia</div>
+							<div class="posts__article">Vestibulum eu blandit libero. Onec fermentum, erat sed vestiulum...</div>
+							<div class="posts__date">Posted 11/30/2012</div>
+						</article>
+
+				</li>
+
+				<li class="posts__item">
+					
+						<div class="posts__icon">
+							<img src="images/posts/9.png" alt="post">
+						</div>
+						<article class="posts__article">
+							<div class="posts__title">Class aptent taciti sociosqu ad litora torquent conubia</div>
+							<div class="posts__article">Vestibulum eu blandit libero. Onec fermentum, erat sed vestiulum...</div>
+							<div class="posts__date">Posted 11/30/2012</div>
+						</article>
+
+				</li>
+
+
+
+			</ul>
+
+
+		</div>
+		
+
+	</div>
+
+
+
+
+	<!--  ====== БОЛЬШОЙ БЛОК НИЖНЕГО ФУТЕРА!!! ======== -->
+	<footer class="footer">
+		<!--  AWESOMAG CATEGORIES BLOCK -->
+		<div class="footer__categs">
+		<div class="categs_title">
+			AWESOMAG CATEGORIES
+		</div>
+			<div class="categs_list-div">
+				<ul class="categs_list">
+					<li class="categs_item">
+						<a class="categs_link" href="">
+							Music
+						</a>
+					</li>
+					<li class="categs_item">
+						<a class="categs_link" href="">
+							Movies
+						</a>
+					</li>
+					<li class="categs_item">
+						<a class="categs_link" href="">
+							TV Series
+						</a>
+					</li>
+					<li class="categs_item">
+						<a class="categs_link" href="">
+							Education
+						</a>
+					</li>
+					<li class="categs_item">
+						<a class="categs_link" href="">
+							Lifestyle
+						</a>
+					</li>
+					<li class="categs_item">
+						<a class="categs_link" href="">
+							Fashion
+						</a>
+					</li>
+					<li class="categs_item">
+						<a class="categs_link" href="">
+							Health
+						</a>
+					</li>
+					<li class="categs_item">
+						<a class="categs_link" href="">
+							Photography
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+		<!--  ONLINE Block -->
+
+		<div class="footer__social">
+			<div class="social__title">AWESOMAG ONLINE</div>
+
+			<div class="social__buttons">
+				<ul class="social__list">
+					<li class="social__item">
+						<a class="social__link">
+							<img src="images/social/1.png" alt="social">
+						</a>
+					</li>
+					<li class="social__item">
+						<a class="social__link">
+							<img src="images/social/2.png" alt="social">
+						</a>
+					</li>
+									<li class="social__item">
+						<a class="social__link">
+							<img src="images/social/3.png" alt="social">
+						</a>
+					</li>
+									<li class="social__item">
+						<a class="social__link">
+							<img src="images/social/4.png" alt="social">
+						</a>
+					</li>
+									<li class="social__item">
+						<a class="social__link">
+							<img src="images/social/5.png" alt="social">
+						</a>
+					</li>
+									<li class="social__item">
+						<a class="social__link">
+							<img src="images/social/6.png" alt="social">
+						</a>
+					</li>
+
+				</ul>
+			</div>
+		</div>
+
+		<!--  NEWSLETTER AWESOMAG -->
+		<div class="footer__newsletter">
+			<div class="newsletter__heading">AWESOMAG NEWSLETTER</div>
+
+			<div class="newsletter__text">Lorem ipsum dolor sit amet</div>
+
+			<div class="newsletter__email-field">
+				<input type="email" placeholder="Your e-mail here" name="newsletter-email" class="input__newsletter-footer">
+				<div class="arrow__footer">
+					<img src="images/arrow.png" alt="arrow">
+				</div>
+			</div>
+
+
+		</div>
+
+		<!--  ABOUT AWESOMAG block -->
+
+		<div class="footer__about">
+			<div class="footer__about-heading">ABOUT AWESOMAG</div>
+
+			<div class="footer__about-text">Nullam placerat commodo nunc et lobortis etc...</div>
+		</div>
+	</footer>
+
+</body>
+</html>
+
+
+
+	
